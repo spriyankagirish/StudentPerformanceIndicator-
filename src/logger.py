@@ -15,4 +15,5 @@ try:
         format="[ %(asctime)s ] %(lineno)d %(name)s - %(levelname)s - %(message)s",
         level=logging.INFO,
     )
-
+except Exception as e:
+    print(f"Error occurred: {e}")
